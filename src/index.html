@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio tailwindcss</title>
+    <link rel="stylesheet" href="./output.css">
+    <script src="https://kit.fontawesome.com/9d7e16c7af.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-[#E6E8EA]">
+    <header class="flex gap-3 p-4 items-center h-14 lg:gap-10 ">
+        <h1 class="logo font-logo font-bold mr-9 pt-[3.5px] lg:ml-52 lg:mr-[584px] lg:text-2xl">Rachid MELOUK</h1>
+        <a href="./index.html" class="home lg:text-xl">Home</a>
+        <a href="#projects" class="a-project lg:text-xl">Projects</a>
+        <a href="contact" class="a-contact lg:text-xl">Contact</a>
+    </header>
+    <section class=" lg:h-96 lg:text-5xl lg:[text-shadow:3px_3px_25px_#454545] lg:gap-9 lg:pt-20 hero h-64 pl-4 pt-14 text-xl flex flex-col gap-3 font-slogan [text-shadow:3px_3px_15px_black] bg-cover bg-[url('https://images.unsplash.com/photo-1518655048521-f130df041f66?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
+        <p class="lg:ml-52">Keep crying is useless</p>
+        <p class="ml-10 lg:ml-64 ">Keep wishing is nonsense</p>
+        <p class="lg:ml-52">Keep trying <span class="font-span font-bold text-4xl lg:text-6xl">nevertheless</span></p>
+    </section>
+    <div class="text-5xl text-center font-slogan bg-white p-4 lg:mb-16">Skills</div>
+    <section class="skills bg-[#E6E8EA] lg:grid lg:grid-cols-3">
+        
+        <div class="  container mx-auto p-10 pb-0">
+            <img class="max-w-full rounded-lg" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img">
+            <p class="font-mono font-bold text-3xl text-center mt-4 ">Js, CSS</p>
+        </div>
+        <div class="  container mx-auto p-10 pb-0">
+            <img class="max-w-full rounded-lg" src="https://images.pexels.com/photos/11035539/pexels-photo-11035539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img">
+            <p class="font-mono font-bold text-3xl text-center mt-4">Git</p>
+        </div>
+        <div class="  container mx-auto p-10 pb-0">
+            <img class="max-w-full rounded-lg" src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="img">
+            <p class="font-mono font-bold text-3xl text-center mt-4">Html</p>
+        </div>
+       
+    </section>
+    <section class="projects lg:mt-28">
+        <div id="projects" class="text-5xl text-center font-slogan bg-white p-4 my-10">Projects</div>
+
+        <div class="project bg-[#E6E8EA] p-5 ">
+            <img src="./imgs/portfolio.png" class="rounded-xl" alt="img">
+            <h1 class="font-mono text-xl my-4 text-center font-bold lg:text-3xl" >Portfolio Website</h1>
+        </div>
+        <div class="project p-5 ">
+            <img src="./imgs/travel-agency.png" class="rounded-xl" alt="img">
+            <h1 class="font-mono text-xl my-4 text-center font-bold lg:text-3xl" >Travel Agency Website</h1>
+            
+        </div>
+        <div class="project p-5 ">
+            <img src="./imgs/landing-store.png" class="rounded-xl" alt="">
+            <h1 class="font-mono text-xl my-4 text-center font-bold lg:text-3xl" >Landing Page Website</h1>
+        
+        </div>
+    </section>
+    <section class="contact">
+        <div class="text-5xl text-center font-slogan bg-white p-4 my-10">Contact Us!</div>
+
+        <form action="" class="flex flex-col items-center gap-4 ">
+            <label class="flex flex-col items-center text-2xl gap-2">Name
+                <input  class="outline-none rounded-md" type="text">
+            </label>
+            
+            <label class="flex flex-col items-center text-2xl gap-2">E-mail
+                <input class="outline-none rounded-md" type="email" name="" id="">
+            </label>
+            
+            <label class="flex flex-col items-center text-2xl gap-2">Message 
+                <textarea class="outline-none rounded-md" name="" id=""></textarea>
+            </label>
+            
+            <input type="submit" value="">
+        </form>
+    </section>
+    <footer class="bg-white flex justify-center gap-2 h-10 items-center">
+       <b> © 2024 Copyright: </b>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+    </footer>
+</body>
+</html>
